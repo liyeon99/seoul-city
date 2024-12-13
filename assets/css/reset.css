@@ -1,0 +1,36 @@
+:root {
+  --color-crail:#c35c3c;
+  --color-blue:#028ab6;
+  --color-green:#069363;
+  --color-orange:#d76000;
+  --color-limeade:#599100;
+  --color-purple:#9b64d3;
+}
+
+*{margin:0;padding:0;font:inherit;color:inherit;}
+*, :after, :before {box-sizing:border-box;}
+:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;cursor:default;line-height:1.5;overflow-wrap:break-word;-moz-tab-size:4;tab-size:4}
+html, body {height:100%;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+ul{list-style: none;}
+fieldset,
+input {
+  border: 0;
+  background: transparent;
+  outline: 0;
+}
+
+body{
+  font-size: 14px;
+  color: #222;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{
+  line-height: 1.35em;
+  letter-spacing: -0.05em;
+}
